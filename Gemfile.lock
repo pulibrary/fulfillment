@@ -11,8 +11,10 @@ GIT
       normalize-rails (~> 3.0.3)
       susy (~> 2.2.12)
 
-PATH
-  remote: /Users/kevinreiss/Projects/blacklight/requests
+GIT
+  remote: git@github.com:pulibrary/requests.git
+  revision: ce7d6a0ad4a3ebd1d2ed95b342c43195ad8c8781
+  branch: request_test_specs
   specs:
     requests (0.0.1)
       bootstrap-sass (~> 3.3)
