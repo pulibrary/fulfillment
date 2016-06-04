@@ -162,6 +162,7 @@ GEM
     modernizr-rails (2.7.1)
     multi_json (1.12.1)
     multipart-post (2.0.0)
+    mysql2 (0.4.4)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (3.1.1)
@@ -301,6 +302,7 @@ DEPENDENCIES
   devise-guests (~> 0.5)
   jbuilder (~> 2.0)
   jquery-rails
+  mysql2 (~> 0.4.4)
   omniauth-cas
   pry-byebug
   pul-assets!
