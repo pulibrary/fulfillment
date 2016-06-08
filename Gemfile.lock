@@ -13,7 +13,7 @@ GIT
 
 GIT
   remote: git@github.com:pulibrary/requests.git
-  revision: 82956f989bfe4934c13e85b674a4414b9802343e
+  revision: 8f03bb27954146a8a058064cf731b8f2d003aeec
   branch: request_test_specs
   specs:
     requests (0.0.1)
@@ -190,6 +190,7 @@ GEM
       byebug (~> 9.0)
       pry (~> 0.10)
     rack (1.6.4)
+    rack-cors (0.4.0)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (4.2.6)
@@ -315,6 +316,7 @@ DEPENDENCIES
   omniauth-cas
   pry-byebug
   pul-assets!
+  rack-cors
   rails (= 4.2.6)
   requests!
   rspec-rails (~> 3.0)

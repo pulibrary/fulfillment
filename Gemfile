@@ -29,7 +29,7 @@ gem 'mysql2', '~>0.4.4'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
-
+gem 'rack-cors', :require => 'rack/cors'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 #gem 'requests', path: '/Users/kevinreiss/Projects/blacklight/requests'
