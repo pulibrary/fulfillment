@@ -38,7 +38,7 @@ module Fullfillment
      config.middleware.insert_before 0, "Rack::Cors" do
       allow do
         origins '*'
-        resource '/requests/pageable', :headers => :any, :methods => [:get, :options]
+        resource '/requests/pageable.json', :headers => :any, :methods => [:get, :options]
       end
     end
   end
