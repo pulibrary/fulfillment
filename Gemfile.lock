@@ -13,7 +13,7 @@ GIT
 
 GIT
   remote: git@github.com:pulibrary/requests.git
-  revision: c0e2cab7b772bae06d6ae90b1ed3aad9cf97dd6c
+  revision: 10792e93ab0b2a861f3cae36e3f83cdb26026b5e
   branch: request_test_specs
   specs:
     requests (0.0.1)
@@ -98,7 +98,7 @@ GEM
       capistrano (~> 3.1)
       sshkit (~> 1.2)
     capistrano-harrow (0.5.1)
-    capistrano-rails (1.1.6)
+    capistrano-rails (1.1.7)
       capistrano (~> 3.1)
       capistrano-bundler (~> 1.1)
     coderay (1.1.1)
@@ -217,7 +217,7 @@ GEM
       activesupport (= 4.2.6)
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
-    rake (11.1.2)
+    rake (11.2.2)
     rdoc (4.2.2)
       json (~> 1.4)
     ref (2.0.0)

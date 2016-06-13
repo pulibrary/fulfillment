@@ -17,6 +17,10 @@ label {
   margin-bottom: 1em;
   border-style: solid;
   border-width: .1em;
+
+  .form-control {
+    width: auto;
+  }
 }
 
 .user h3 {
@@ -28,10 +32,10 @@ label {
 .user-pul {
   div {
     padding: .5em;
-    marging-bottom: 1em;
+    margin-bottom: 1em;
   }
 
   a {
-    padding-left: .5em;
+    padding: .5em;
   }
 }
