@@ -3,10 +3,6 @@ class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
     find_user('CAS')
   end
 
-  # def facebook
-  #   find_user('Facebook')
-  # end
-
   def find_user(auth_type)
     find_method = "find_for_#{auth_type.downcase}".to_sym
     $stderr.puts "#{auth_type} :: #{current_user.inspect}"

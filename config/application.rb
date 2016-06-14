@@ -41,5 +41,8 @@ module Fullfillment
         resource '/requests/pageable.json', :headers => :any, :methods => [:get, :options]
       end
     end
+
+    # Redirect to CAS logout after signing out
+    config.x.after_sign_out_url = 'https://fed.princeton.edu/cas/logout'
   end
 end

@@ -52,6 +52,6 @@ group :development do
 end
 
 
-gem 'devise'
+gem 'devise', '~> 3.5.10'
 gem 'devise-guests', '~> 0.5'
 gem 'omniauth-cas'

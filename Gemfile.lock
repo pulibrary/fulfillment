@@ -13,7 +13,7 @@ GIT
 
 GIT
   remote: git@github.com:pulibrary/requests.git
-  revision: 10792e93ab0b2a861f3cae36e3f83cdb26026b5e
+  revision: ce10ceb8c657a82bb2063489fbc594abc88093bc
   branch: request_test_specs
   specs:
     requests (0.0.1)
@@ -117,11 +117,12 @@ GEM
       thor (~> 0.19.1)
       tins (~> 1.6.0)
     debug_inspector (0.0.2)
-    devise (4.1.1)
+    devise (3.5.10)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
-      railties (>= 4.1.0, < 5.1)
+      railties (>= 3.2.6, < 5)
       responders
+      thread_safe (~> 0.1)
       warden (~> 1.2.3)
     devise-guests (0.5.0)
       devise
@@ -308,7 +309,7 @@ DEPENDENCIES
   byebug
   capistrano-rails (~> 1.1)
   coffee-rails (~> 4.1.0)
-  devise
+  devise (~> 3.5.10)
   devise-guests (~> 0.5)
   jbuilder (~> 2.0)
   jquery-rails
