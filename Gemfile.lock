@@ -13,7 +13,7 @@ GIT
 
 GIT
   remote: git@github.com:pulibrary/requests.git
-  revision: 3c94b25a889d7cd5e8023ebbfc812d14eaaee85e
+  revision: 83b9b0bbe6924ce4446ee7ef396c9e5d8a37cb29
   branch: request_test_specs
   specs:
     requests (0.0.1)
@@ -271,7 +271,7 @@ GEM
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
     sqlite3 (1.3.11)
-    sshkit (1.10.0)
+    sshkit (1.11.0)
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
     susy (2.2.12)
