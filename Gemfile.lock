@@ -13,7 +13,7 @@ GIT
 
 GIT
   remote: git@github.com:pulibrary/requests.git
-  revision: 93ef94db653592c60f6974565d9e83f8a7c2f115
+  revision: ccd645b0f3e16eeab14a7f4af8c9a00aa64fc9f7
   branch: request_test_specs
   specs:
     requests (0.0.1)
