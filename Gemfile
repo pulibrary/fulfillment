@@ -33,6 +33,7 @@ gem 'rack-cors', :require => 'rack/cors'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 #gem 'requests', path: '/Users/kevinreiss/Projects/blacklight/requests'
+
 gem 'requests', :git => 'git@github.com:pulibrary/requests.git', :branch => :request_test_specs
 gem 'pul-assets', :git => 'git@github.com:pulibrary/pul_assets.git', :branch => :master
 
