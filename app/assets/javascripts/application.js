@@ -18,8 +18,21 @@
 //= require jquery-tablesorter/jquery.tablesorter.combined
 //= require jquery-tablesorter/widgets/widget-uitheme
 //= require pul-assets
+//= require jquery.sticky
+$(document).ready(function(){
+  // // $("table.request--available_items").tablesorter({
+  // //     widthFixed: true,
+  // //     widgets: ['stickyHeaders', 'filter', 'zebra'],
+  // // });
 
-$("table.request--available_items").tablesorter({
-    widthFixed: true,
-    widgets: ['stickyHeaders', 'filter', 'zebra'],
+  // // $( ".alert-success" ).on('click', 'a', function() {
+  // //   event.preventDefault();
+  // //   $(this).hide();
+  // // });
+
+  // $( ".close" ).on( "click", function( event ) {
+  //   event.preventDefault();
+  // });
+
+  $(".flash_messages").sticky({topSpacing:0});
 });
