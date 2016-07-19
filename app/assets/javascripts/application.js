@@ -34,5 +34,5 @@ $(document).ready(function(){
   //   event.preventDefault();
   // });
 
-  $(".flash_messages").sticky({topSpacing:0});
+  $(".flash_messages").sticky({topSpacing:100});
 });
