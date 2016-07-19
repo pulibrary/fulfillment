@@ -20,19 +20,16 @@
 //= require pul-assets
 //= require jquery.sticky
 $(document).ready(function(){
-  // // $("table.request--available_items").tablesorter({
-  // //     widthFixed: true,
-  // //     widgets: ['stickyHeaders', 'filter', 'zebra'],
-  // // });
+  $("table.tablesorter").tablesorter({
+      widthFixed: true,
+      widgets: ['stickyHeaders', 'filter', `'zebra'],
+      headers: { 
+        0: {sorter: false},
+        1: {sorter: true},
+        2: {sorter: true},
+        3: {sorter: false},
+        4: {sorter: false},
+      }
+  });
 
-  // // $( ".alert-success" ).on('click', 'a', function() {
-  // //   event.preventDefault();
-  // //   $(this).hide();
-  // // });
-
-  // $( ".close" ).on( "click", function( event ) {
-  //   event.preventDefault();
-  // });
-
-  $(".flash_messages").sticky({topSpacing:100});
 });
