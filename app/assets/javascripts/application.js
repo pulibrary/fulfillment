@@ -22,14 +22,14 @@
 $(document).ready(function(){
   $("table.tablesorter").tablesorter({
       widthFixed: true,
-      widgets: ['stickyHeaders', 'filter', `'zebra'],
+      widgets: ['stickyHeaders', 'filter', 'zebra'],
       headers: { 
-        0: {sorter: false},
-        1: {sorter: true},
-        2: {sorter: true},
-        3: {sorter: false},
-        4: {sorter: false},
+        0: { sorter: false },
+        1: { sorter: true },
+        2: { sorter: true },
+        3: { sorter: false },
+        4: { sorter: false },
       }
-  });
+  })
 
 });
