@@ -35,7 +35,7 @@ gem 'rack-cors', :require => 'rack/cors'
 #gem 'requests', path: '/Users/kevinreiss/Projects/blacklight/requests'
 
 gem 'requests', :git => 'git@github.com:pulibrary/requests.git', :branch => :request_test_specs
-#gem 'pul-assets', :git => 'git@github.com:pulibrary/pul_assets.git', :branch => :master
+gem 'pul-assets', :git => 'git@github.com:pulibrary/pul_assets.git', :branch => :master
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
