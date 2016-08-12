@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.7'
+gem 'rails', '~> 4.2.7'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
@@ -32,9 +32,8 @@ gem 'mysql2', '~>0.4.4'
 gem 'rack-cors', :require => 'rack/cors'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-#gem 'requests', path: '/Users/kevinreiss/Projects/blacklight/requests'
 
-gem 'requests', :git => 'git@github.com:pulibrary/requests.git', :branch => :request_test_specs
+gem 'requests', :git => 'git@github.com:pulibrary/requests.git', :ref => '71e1f19f4691dd123ca39ad1bc51971b2388eb5e'
 gem 'pul-assets', :git => 'git@github.com:pulibrary/pul_assets.git', :branch => :master
 
 group :development, :test do
