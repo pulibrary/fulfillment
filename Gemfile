@@ -33,7 +33,8 @@ gem 'rack-cors', :require => 'rack/cors'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'requests', :git => 'git@github.com:pulibrary/requests.git', :ref => '71e1f19f4691dd123ca39ad1bc51971b2388eb5e'
+#gem 'requests', :git => 'git@github.com:pulibrary/requests.git', :ref => '71e1f19f4691dd123ca39ad1bc51971b2388eb5e'
+gem 'requests', :git => 'git@github.com:pulibrary/requests.git', :branch => 'stable_fulfillment'
 gem 'pul-assets', :git => 'git@github.com:pulibrary/pul_assets.git', :branch => :master
 
 group :development, :test do
